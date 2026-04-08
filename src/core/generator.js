@@ -984,8 +984,7 @@ rules:
 
 
   # Всё остальное через прокси
-  - DOMAIN-SUFFIX,ivi.ru,DIRECT
-  - DOMAIN-SUFFIX,ivi.ru,DIRECT
+  - MATCH,Proxy-Select
 `;
   }
 }
